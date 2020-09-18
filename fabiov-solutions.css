@@ -66,3 +66,14 @@
 .ex-7-img:hover {
     filter: sepia(.5);
 }
+
+
+/* 8th EXERCISE */
+.ex-8-img {
+    transition: border-radius 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.ex-8-img:hover {
+    border-radius: 50px;
+    filter: grayscale(.7);
+}
