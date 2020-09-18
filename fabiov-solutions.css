@@ -7,6 +7,7 @@
     background-color: red;
 }
 
+
 /* 2nd EXERCISE */
 .ex-2-square {
     transition: width 1s ease-in-out;
@@ -15,6 +16,7 @@
 .ex-2-square:active {
     width: 100%;
 }
+
 
 /* 3th EXERCISE */
 .ex-3-square {
@@ -25,6 +27,7 @@
     border-radius: 50%;
 }
 
+
 /* 4th EXERCISE */
 .ex-4-square {
     transition: opacity 1s ease-out;
@@ -33,6 +36,7 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
 
 /* 5th EXERCISE */
 .ex-5-square {
@@ -45,3 +49,10 @@
 
 .ex-5-square:active {
     transform: scale(.5);
+}
+
+
+/* 6th EXERCISE */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
