@@ -40,7 +40,7 @@
 
 /* 5th EXERCISE */
 .ex-5-square {
-    transition: all 1s ease-out;
+    transition: scale 1s ease-out;
 }
 
 .ex-5-square:hover {
@@ -55,4 +55,14 @@
 /* 6th EXERCISE */
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+
+/* 7th EXERCISE */
+.ex-7-img {
+    transition: filter 1s ease-in-out;
+}
+
+.ex-7-img:hover {
+    filter: sepia(.5);
 }
