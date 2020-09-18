@@ -1,4 +1,4 @@
-/* 1ST EXERCISE */
+/* 1st EXERCISE */
 .ex-1-square {
     transition: background-color 1s ease-in-out;
 }
@@ -7,19 +7,29 @@
     background-color: red;
 }
 
-/* 2ND EXERCISE */
+/* 2nd EXERCISE */
 .ex-2-square {
     transition: width 1s ease-in-out;
 }
 
-.ex-2-square:hover {
+.ex-2-square:active {
     width: 100%;
 }
 
+/* 3th EXERCISE */
 .ex-3-square {
     transition: border-radius 1s ease-in-out;
 }
 
 .ex-3-square:hover {
     border-radius: 50%;
+}
+
+/* 4th EXERCISE */
+.ex-4-square {
+    transition: opacity 1s ease-out;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
 }
