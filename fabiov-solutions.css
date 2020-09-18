@@ -100,3 +100,23 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
+
+
+/* 11th EXERCISE */
+.ex-11-icon:hover {
+    animation: circle-rotate 3s;
+}
+
+@keyframes circle-rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
