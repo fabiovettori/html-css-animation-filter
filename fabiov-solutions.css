@@ -78,6 +78,7 @@
     filter: grayscale(.7);
 }
 
+
 /* 9th EXERCISE */
 .ex-9-img {
     transition: all 1s ease-in-out;
@@ -87,4 +88,15 @@
     border-radius: 50px;
     filter: sepia(.7);
     transform: scale(1.5);
+}
+
+
+/* 10th EXERCISE */
+.ex-10-icon {
+    animation: infinite-spinning 1s linear infinite;
+}
+
+@keyframes infinite-spinning {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
